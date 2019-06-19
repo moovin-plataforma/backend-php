@@ -12,6 +12,14 @@ Para iniciar você deve instalar as dependências:
 ```zsh
   foo@bar:~$ composer install
 ```
+Em seguida você poderá executar exemplos de utilização do sistema criado através do comando:
+```zsh
+  foo@bar:~$ php main.php
+```
+Também é possível optar por implementar testes de unidade, utilizando o comando abaixo para execução:
+```zsh
+  foo@bar:~$ ./vendor/bin/phpunit --bootstrap vendor/autoload.php --configuration phpunit.xml
+```
 
 ### Instruções
 
