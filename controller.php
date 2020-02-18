@@ -9,7 +9,7 @@
     use Moovin\Job\Backend\Model\CashDesk as CashDesk;
     $cashDesk = new CashDesk();
     $saque = 200;
-    echo $transferenceAccount->balance = $transferenceAccount->balance + $cashDesk->Transferencia($withdraw);
+    echo $transferenceAccount->balance = $transferenceAccount->balance + $cashDesk->Transference($withdraw);
 
     echo "<br>" . $account->balance;
     echo "<br>" . $transferenceAccount->balance;
