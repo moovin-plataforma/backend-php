@@ -11,7 +11,8 @@
     "autoload": {
         "psr-4": {
             "Moovin\\Job\\Backend\\": "src/",
-            "Moovin\\Job\\Backend\\Tests\\": "tests/"
+            "Moovin\\Job\\Backend\\Tests\\": "tests/",
+            "Moovin\\Job\\Backend\\Model\\": "model/"
         }
     }
 }
